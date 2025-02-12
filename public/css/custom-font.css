@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bahij Helvetica Neue';
+    src: url('/fonts/BahijHelveticaNeue-Roman.woff2') format('woff2'),
+         url('/fonts/BahijHelveticaNeue55Roman.woff') format('woff'),
+         url('/fonts/BahijHelveticaNeue-Roman.ttf') format('truetype'); /* TTF added */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body, .filament {
+    font-family: 'Bahij Helvetica Neue', sans-serif !important;
+}
